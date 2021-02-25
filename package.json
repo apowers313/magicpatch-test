@@ -1,6 +1,6 @@
 {
   "name": "magicpatch-test",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Test fixtures for magicpatch",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,8 @@
     "chai-string": "^1.5.0",
     "execa": "^5.0.0",
     "std-mocks": "^1.0.1"
+  },
+  "peerDependencies": {
+    "magicpatch": "*"
   }
 }
